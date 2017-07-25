@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-TBR815U</Machine>
+    <WindowsUser>root</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>d87963e0-713c-11e7-ad15-5d92132e55a6</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\build\windows\debug\x86\win10\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\build\windows\debug\x86\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\img\i-f7-ios.png">
+      <PackagePath>www\img\i-f7-ios.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\img\i-f7-material.png">
+      <PackagePath>www\img\i-f7-material.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\about.html">
+      <PackagePath>www\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\form.html">
+      <PackagePath>www\form.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\services.html">
+      <PackagePath>www\services.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\framework7.js">
+      <PackagePath>www\js\framework7.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\framework7.min.js">
+      <PackagePath>www\js\framework7.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\my-app.js">
+      <PackagePath>www\js\my-app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.colors.css">
+      <PackagePath>www\css\framework7.ios.colors.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.colors.min.css">
+      <PackagePath>www\css\framework7.ios.colors.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.css">
+      <PackagePath>www\css\framework7.ios.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.min.css">
+      <PackagePath>www\css\framework7.ios.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.rtl.css">
+      <PackagePath>www\css\framework7.ios.rtl.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.rtl.min.css">
+      <PackagePath>www\css\framework7.ios.rtl.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.colors.css">
+      <PackagePath>www\css\framework7.material.colors.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.colors.min.css">
+      <PackagePath>www\css\framework7.material.colors.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.css">
+      <PackagePath>www\css\framework7.material.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.min.css">
+      <PackagePath>www\css\framework7.material.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.rtl.css">
+      <PackagePath>www\css\framework7.material.rtl.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.rtl.min.css">
+      <PackagePath>www\css\framework7.material.rtl.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\my-app.css">
+      <PackagePath>www\css\my-app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\framework7.js.map">
+      <PackagePath>www\js\framework7.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\framework7.min.js.map">
+      <PackagePath>www\js\framework7.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\build\windows\debug\x86\win10\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -88,11 +88,6 @@
     <Content Remove="www\js\**" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="www\about.html" />
-    <Content Remove="www\form.html" />
-    <Content Remove="www\services.html" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Update="config.xml">
       <SubType>Designer</SubType>
     </Content>
