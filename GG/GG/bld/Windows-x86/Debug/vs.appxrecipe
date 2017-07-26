@@ -32,7 +32,7 @@
     <AppXManifest Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\build\windows\debug\x86\win10\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-25T13:35:25.482</Modified>
+      <Modified>2017-07-26T15:47:18.324</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -93,35 +93,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\about.html">
       <PackagePath>www\about.html</PackagePath>
-      <Modified>2017-07-25T13:35:22.517</Modified>
+      <Modified>2017-07-26T15:47:15.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\form.html">
       <PackagePath>www\form.html</PackagePath>
-      <Modified>2017-07-25T13:35:22.662</Modified>
+      <Modified>2017-07-26T15:47:16.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2017-07-25T13:35:22.664</Modified>
+      <Modified>2017-07-26T15:47:15.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\index2.html">
+      <PackagePath>www\index2.html</PackagePath>
+      <Modified>2017-07-26T15:47:16.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\services.html">
       <PackagePath>www\services.html</PackagePath>
-      <Modified>2017-07-25T13:35:23.100</Modified>
+      <Modified>2017-07-26T15:47:16.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\confighelper.js">
       <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
-      <Modified>2017-07-25T13:35:22.518</Modified>
+      <Modified>2017-07-26T15:47:15.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\exec.js">
       <PackagePath>www\cordova-js-src\exec.js</PackagePath>
-      <Modified>2017-07-25T13:35:22.519</Modified>
+      <Modified>2017-07-26T15:47:15.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\platform.js">
       <PackagePath>www\cordova-js-src\platform.js</PackagePath>
-      <Modified>2017-07-25T13:35:22.520</Modified>
+      <Modified>2017-07-26T15:47:15.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova-js-src\splashscreen.js">
       <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
-      <Modified>2017-07-25T13:35:22.552</Modified>
+      <Modified>2017-07-26T15:47:15.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
@@ -129,19 +133,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
-      <Modified>2017-07-25T13:35:22.554</Modified>
+      <Modified>2017-07-26T15:47:16.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\framework7.js">
       <PackagePath>www\js\framework7.js</PackagePath>
-      <Modified>2017-07-25T13:35:22.932</Modified>
+      <Modified>2017-07-26T15:47:16.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\framework7.min.js">
       <PackagePath>www\js\framework7.min.js</PackagePath>
-      <Modified>2017-07-25T13:35:23.090</Modified>
+      <Modified>2017-07-26T15:47:16.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\js\my-app.js">
       <PackagePath>www\js\my-app.js</PackagePath>
-      <Modified>2017-07-25T13:35:23.092</Modified>
+      <Modified>2017-07-26T15:47:16.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
@@ -157,55 +161,55 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.colors.css">
       <PackagePath>www\css\framework7.ios.colors.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.561</Modified>
+      <Modified>2017-07-26T15:47:16.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.colors.min.css">
       <PackagePath>www\css\framework7.ios.colors.min.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.568</Modified>
+      <Modified>2017-07-26T15:47:16.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.css">
       <PackagePath>www\css\framework7.ios.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.576</Modified>
+      <Modified>2017-07-26T15:47:16.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.min.css">
       <PackagePath>www\css\framework7.ios.min.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.586</Modified>
+      <Modified>2017-07-26T15:47:16.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.rtl.css">
       <PackagePath>www\css\framework7.ios.rtl.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.592</Modified>
+      <Modified>2017-07-26T15:47:16.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.ios.rtl.min.css">
       <PackagePath>www\css\framework7.ios.rtl.min.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.599</Modified>
+      <Modified>2017-07-26T15:47:16.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.colors.css">
       <PackagePath>www\css\framework7.material.colors.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.611</Modified>
+      <Modified>2017-07-26T15:47:16.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.colors.min.css">
       <PackagePath>www\css\framework7.material.colors.min.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.625</Modified>
+      <Modified>2017-07-26T15:47:16.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.css">
       <PackagePath>www\css\framework7.material.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.636</Modified>
+      <Modified>2017-07-26T15:47:16.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.min.css">
       <PackagePath>www\css\framework7.material.min.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.645</Modified>
+      <Modified>2017-07-26T15:47:16.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.rtl.css">
       <PackagePath>www\css\framework7.material.rtl.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.653</Modified>
+      <Modified>2017-07-26T15:47:16.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\framework7.material.rtl.min.css">
       <PackagePath>www\css\framework7.material.rtl.min.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.660</Modified>
+      <Modified>2017-07-26T15:47:16.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\my-app.css">
       <PackagePath>www\css\my-app.css</PackagePath>
-      <Modified>2017-07-25T13:35:22.661</Modified>
+      <Modified>2017-07-26T15:47:16.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\css\splashscreen.css">
       <PackagePath>www\css\splashscreen.css</PackagePath>
@@ -221,12 +225,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
-      <Modified>2017-07-25T13:35:22.170</Modified>
+      <Modified>2017-07-26T15:47:15.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\build\windows\debug\x86\win10\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-25T13:35:25.336</Modified>
+      <Modified>2017-07-26T15:47:18.215</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

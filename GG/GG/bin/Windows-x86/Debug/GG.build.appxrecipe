@@ -77,6 +77,9 @@
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\index2.html">
+      <PackagePath>www\index2.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Documents\GitHub\CMCN\GG\GG\platforms\windows\www\services.html">
       <PackagePath>www\services.html</PackagePath>
     </AppxPackagedFile>
