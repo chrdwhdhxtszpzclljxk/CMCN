@@ -1,6 +1,5 @@
 {
-  "name": "GG",
-  "dependencies": {
-    "framework7": "v1.6.4"
-  }
+    "name": "GG",
+    "dependencies": {
+    }
 }

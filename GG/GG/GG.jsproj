@@ -43,7 +43,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>5e03b3d6-31f3-4771-921d-45fea3e3b7cc</ProjectGuid>
+    <ProjectGuid>bd2d2489-5754-4d5a-8fce-fab8b6a92182</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <ProjectCapability Include="UseFileGlobs" />
@@ -84,15 +84,8 @@
     <Content Include="**\**" Exclude="**\platforms\**;**\bin\**;**\bld\**;**\node_modules\**;**\simulation\**;.gitignore;GG.*" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="www\img\**" />
-    <Content Remove="www\js\**" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Update="config.xml">
       <SubType>Designer</SubType>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bower_components\framework7\dist\" />
   </ItemGroup>
 </Project>

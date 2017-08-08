@@ -1,103 +1,29 @@
-﻿
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>My App</title>
-    <link rel="stylesheet" href="css/framework7.ios.min.css">
-    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
-</head>
-<body>
-    <style>
-        i.demo-icon-1 {
-            width: 30px;
-            height: 30px;
-            background-image: url("img/main_menu/naozhong.png");
-        }
-
-        .active i.demo-icon-1 {
-            background-image: url("img/main_menu/naozhong.png");
-        }
-
-        i.demo-icon-2 {
-            width: 25px;
-            height: 30px;
-            background-image: url("img/main_menu/shizhong.png");
-        }
-
-        .active i.demo-icon-2 {
-            background-image: url("img/main_menu/shizhong.png");
-        }
-
-        i.demo-icon-3 {
-            width: 30px;
-            height: 30px;
-            background-image: url("img/main_menu/miaobiao.png");
-        }
-
-        .active i.demo-icon-3 {
-            background-image: url("img/main_menu/miaobiao.png");
-        }
-
-        i.demo-icon-4 {
-            width: 25px;
-            height: 30px;
-            background-image: url("img/main_menu/jishiqi.png");
-        }
-
-        .active i.demo-icon-4 {
-            background-image: url("img/main_menu/jishiqi.png");
-        }
-    </style>
-    <div class="views">
-        <div class="view view-main">
-            <div class="pages">
-                <div data-page="home" class="page tabbar-labels-fixed">
-                    <div class="toolbar tabbar tabbar-labels">
-                        <div class="toolbar-inner"><a href="#tab1" class="tab-link active"><i class="icon demo-icon-1"></i><span class="tabbar-label">闹钟</span></a><a href="#tab2" class="tab-link"><i class="icon demo-icon-2"><span class="badge bg-red" style="display:none;">5</span></i><span class="tabbar-label">时钟</span></a><a href="#tab3" class="tab-link"><i class="icon demo-icon-3"></i><span class="tabbar-label">秒表</span></a><a href="#tab4" class="tab-link"><i class="icon demo-icon-4"></i><span class="tabbar-label">计时器</span></a></div>
-                    </div>
-                    <div class="page-content">
-                        <div class="content-block">
-                            <div class="tabs">
-                                <div id="tab1" class="tab active">
-                                    <p>Tab 1</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nibh felis. Nunc consequat diam et tellus tempor gravida. Donec hendrerit aliquet risus, ut tempor purus dictum sit amet. Integer sit amet lacus eget ipsum pulvinar interdum. Proin semper turpis sed placerat dapibus. Sed iaculis id nibh a viverra. Sed vitae tellus sed purus lacinia dignissim. Aenean sagittis interdum leo in molestie. Aliquam sodales in diam eu consectetur. Sed posuere a orci id imperdiet.</p>
-                                    <p>Donec et nulla auctor massa pharetra adipiscing ut sit amet sem. Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam mollis, vulputate turpis vel, sagittis felis. Vestibulum ornare ut eros vitae adipiscing. Vestibulum volutpat justo enim, ullamcorper vulputate sapien lacinia vel. Integer sed justo ultrices augue tincidunt dictum eu vel orci. Mauris sodales auctor diam vel condimentum.</p>
-                                    <p>Praesent mauris purus, faucibus vel hendrerit at, dapibus quis lorem. Sed placerat fermentum blandit. Suspendisse potenti. Cras sollicitudin laoreet tellus, ut gravida leo eleifend convallis. Sed pharetra nisl quis libero fermentum pharetra. Cras lacinia quam turpis, eget varius risus interdum sit amet. Quisque laoreet tortor dui, vitae accumsan lacus fringilla in. Quisque consequat placerat risus, non ornare felis scelerisque quis. Sed adipiscing diam tellus, vel faucibus mauris rhoncus vel. Vestibulum eu ultrices tortor, non suscipit lorem. Mauris tellus nulla, volutpat quis lacus eu, scelerisque adipiscing dui. Nullam nec tempor sem, nec pulvinar sapien. Etiam blandit condimentum vehicula.</p>
-                                    <p>Praesent nec imperdiet diam. Maecenas vel lectus porttitor, consectetur magna nec, viverra sem. Aliquam sed risus dolor. Morbi tincidunt ut libero id sodales. Integer blandit varius nisi quis consectetur. Nulla pellentesque elementum ligula vitae porta. Nunc sollicitudin mi quis mi mattis cursus. Nulla diam felis, ullamcorper eget lacinia ac, auctor id velit. Fusce enim nunc, egestas a augue vitae, malesuada tincidunt risus. Nullam fringilla, enim nec porta iaculis, enim leo pharetra nunc, eget rutrum tortor dui et risus. Etiam sit amet molestie dolor. Curabitur ultrices justo ut augue ornare, vel pharetra libero adipiscing. Duis rhoncus a felis ac venenatis. Duis posuere non leo vitae tincidunt. Integer luctus arcu ut risus posuere, vel vehicula ipsum elementum. Duis et cursus sapien.  </p>
-                                </div>
-                                <div id="tab2" class="tab">
-                                    <p>Tab 2</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nibh felis. Nunc consequat diam et tellus tempor gravida. Donec hendrerit aliquet risus, ut tempor purus dictum sit amet. Integer sit amet lacus eget ipsum pulvinar interdum. Proin semper turpis sed placerat dapibus. Sed iaculis id nibh a viverra. Sed vitae tellus sed purus lacinia dignissim. Aenean sagittis interdum leo in molestie. Aliquam sodales in diam eu consectetur. Sed posuere a orci id imperdiet.</p>
-                                    <p>Donec et nulla auctor massa pharetra adipiscing ut sit amet sem. Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam mollis, vulputate turpis vel, sagittis felis. Vestibulum ornare ut eros vitae adipiscing. Vestibulum volutpat justo enim, ullamcorper vulputate sapien lacinia vel. Integer sed justo ultrices augue tincidunt dictum eu vel orci. Mauris sodales auctor diam vel condimentum.</p>
-                                    <p>Praesent mauris purus, faucibus vel hendrerit at, dapibus quis lorem. Sed placerat fermentum blandit. Suspendisse potenti. Cras sollicitudin laoreet tellus, ut gravida leo eleifend convallis. Sed pharetra nisl quis libero fermentum pharetra. Cras lacinia quam turpis, eget varius risus interdum sit amet. Quisque laoreet tortor dui, vitae accumsan lacus fringilla in. Quisque consequat placerat risus, non ornare felis scelerisque quis. Sed adipiscing diam tellus, vel faucibus mauris rhoncus vel. Vestibulum eu ultrices tortor, non suscipit lorem. Mauris tellus nulla, volutpat quis lacus eu, scelerisque adipiscing dui. Nullam nec tempor sem, nec pulvinar sapien. Etiam blandit condimentum vehicula.</p>
-                                    <p>Praesent nec imperdiet diam. Maecenas vel lectus porttitor, consectetur magna nec, viverra sem. Aliquam sed risus dolor. Morbi tincidunt ut libero id sodales. Integer blandit varius nisi quis consectetur. Nulla pellentesque elementum ligula vitae porta. Nunc sollicitudin mi quis mi mattis cursus. Nulla diam felis, ullamcorper eget lacinia ac, auctor id velit. Fusce enim nunc, egestas a augue vitae, malesuada tincidunt risus. Nullam fringilla, enim nec porta iaculis, enim leo pharetra nunc, eget rutrum tortor dui et risus. Etiam sit amet molestie dolor. Curabitur ultrices justo ut augue ornare, vel pharetra libero adipiscing. Duis rhoncus a felis ac venenatis. Duis posuere non leo vitae tincidunt. Integer luctus arcu ut risus posuere, vel vehicula ipsum elementum. Duis et cursus sapien.  </p>
-                                </div>
-                                <div id="tab3" class="tab">
-                                    <p>Tab 3</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nibh felis. Nunc consequat diam et tellus tempor gravida. Donec hendrerit aliquet risus, ut tempor purus dictum sit amet. Integer sit amet lacus eget ipsum pulvinar interdum. Proin semper turpis sed placerat dapibus. Sed iaculis id nibh a viverra. Sed vitae tellus sed purus lacinia dignissim. Aenean sagittis interdum leo in molestie. Aliquam sodales in diam eu consectetur. Sed posuere a orci id imperdiet.</p>
-                                    <p>Donec et nulla auctor massa pharetra adipiscing ut sit amet sem. Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam mollis, vulputate turpis vel, sagittis felis. Vestibulum ornare ut eros vitae adipiscing. Vestibulum volutpat justo enim, ullamcorper vulputate sapien lacinia vel. Integer sed justo ultrices augue tincidunt dictum eu vel orci. Mauris sodales auctor diam vel condimentum.</p>
-                                    <p>Praesent mauris purus, faucibus vel hendrerit at, dapibus quis lorem. Sed placerat fermentum blandit. Suspendisse potenti. Cras sollicitudin laoreet tellus, ut gravida leo eleifend convallis. Sed pharetra nisl quis libero fermentum pharetra. Cras lacinia quam turpis, eget varius risus interdum sit amet. Quisque laoreet tortor dui, vitae accumsan lacus fringilla in. Quisque consequat placerat risus, non ornare felis scelerisque quis. Sed adipiscing diam tellus, vel faucibus mauris rhoncus vel. Vestibulum eu ultrices tortor, non suscipit lorem. Mauris tellus nulla, volutpat quis lacus eu, scelerisque adipiscing dui. Nullam nec tempor sem, nec pulvinar sapien. Etiam blandit condimentum vehicula.</p>
-                                    <p>Praesent nec imperdiet diam. Maecenas vel lectus porttitor, consectetur magna nec, viverra sem. Aliquam sed risus dolor. Morbi tincidunt ut libero id sodales. Integer blandit varius nisi quis consectetur. Nulla pellentesque elementum ligula vitae porta. Nunc sollicitudin mi quis mi mattis cursus. Nulla diam felis, ullamcorper eget lacinia ac, auctor id velit. Fusce enim nunc, egestas a augue vitae, malesuada tincidunt risus. Nullam fringilla, enim nec porta iaculis, enim leo pharetra nunc, eget rutrum tortor dui et risus. Etiam sit amet molestie dolor. Curabitur ultrices justo ut augue ornare, vel pharetra libero adipiscing. Duis rhoncus a felis ac venenatis. Duis posuere non leo vitae tincidunt. Integer luctus arcu ut risus posuere, vel vehicula ipsum elementum. Duis et cursus sapien.  </p>
-                                </div>
-                                <div id="tab4" class="tab">
-                                    <p>Tab 4</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nibh felis. Nunc consequat diam et tellus tempor gravida. Donec hendrerit aliquet risus, ut tempor purus dictum sit amet. Integer sit amet lacus eget ipsum pulvinar interdum. Proin semper turpis sed placerat dapibus. Sed iaculis id nibh a viverra. Sed vitae tellus sed purus lacinia dignissim. Aenean sagittis interdum leo in molestie. Aliquam sodales in diam eu consectetur. Sed posuere a orci id imperdiet.</p>
-                                    <p>Donec et nulla auctor massa pharetra adipiscing ut sit amet sem. Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam mollis, vulputate turpis vel, sagittis felis. Vestibulum ornare ut eros vitae adipiscing. Vestibulum volutpat justo enim, ullamcorper vulputate sapien lacinia vel. Integer sed justo ultrices augue tincidunt dictum eu vel orci. Mauris sodales auctor diam vel condimentum.</p>
-                                    <p>Praesent mauris purus, faucibus vel hendrerit at, dapibus quis lorem. Sed placerat fermentum blandit. Suspendisse potenti. Cras sollicitudin laoreet tellus, ut gravida leo eleifend convallis. Sed pharetra nisl quis libero fermentum pharetra. Cras lacinia quam turpis, eget varius risus interdum sit amet. Quisque laoreet tortor dui, vitae accumsan lacus fringilla in. Quisque consequat placerat risus, non ornare felis scelerisque quis. Sed adipiscing diam tellus, vel faucibus mauris rhoncus vel. Vestibulum eu ultrices tortor, non suscipit lorem. Mauris tellus nulla, volutpat quis lacus eu, scelerisque adipiscing dui. Nullam nec tempor sem, nec pulvinar sapien. Etiam blandit condimentum vehicula.</p>
-                                    <p>Praesent nec imperdiet diam. Maecenas vel lectus porttitor, consectetur magna nec, viverra sem. Aliquam sed risus dolor. Morbi tincidunt ut libero id sodales. Integer blandit varius nisi quis consectetur. Nulla pellentesque elementum ligula vitae porta. Nunc sollicitudin mi quis mi mattis cursus. Nulla diam felis, ullamcorper eget lacinia ac, auctor id velit. Fusce enim nunc, egestas a augue vitae, malesuada tincidunt risus. Nullam fringilla, enim nec porta iaculis, enim leo pharetra nunc, eget rutrum tortor dui et risus. Etiam sit amet molestie dolor. Curabitur ultrices justo ut augue ornare, vel pharetra libero adipiscing. Duis rhoncus a felis ac venenatis. Duis posuere non leo vitae tincidunt. Integer luctus arcu ut risus posuere, vel vehicula ipsum elementum. Duis et cursus sapien.  </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <head>
+    <!--
+        必要时在以下 META 标记中自定义内容安全策略。将 "unsafe-inline" 添加到 default-src 以启动内联 JavaScript。
+      有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>GG</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">正在连接到设备</p>
+                <p class="event received">设备已就绪</p>
             </div>
         </div>
-    </div>
-    <script type="text/javascript" src="js/framework7.min.js"></script>
-    <script type="text/javascript" src="js/my-app.js"></script>
-</body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+    </body>
 </html>
