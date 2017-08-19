@@ -47,3 +47,5 @@ Temporary Items
 .apdisk
 GG/GG/bin/Windows-x86/Debug/
 GG\GG\bin\Windows-x86\Debug
+GG/GG/bin
+GG/GG/bower_components

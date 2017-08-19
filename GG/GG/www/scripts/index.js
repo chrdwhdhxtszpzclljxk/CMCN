@@ -18,6 +18,17 @@
         var receivedElement = parentElement.querySelector('.received');
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+
+
+
+        var now = new Date().getTime(),
+            _5_sec_from_now = new Date(now + 5 * 1000);
+        
+        cordova.plugins.notification.local.schedule({
+            text: "Delayed Notification",
+            at: _5_sec_from_now
+        });
+        
     };
 
     function onPause() {
