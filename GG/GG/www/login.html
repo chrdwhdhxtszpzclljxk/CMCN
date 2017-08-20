@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        必要时在以下 META 标记中自定义内容安全策略。将 "unsafe-inline" 添加到 default-src 以启动内联 JavaScript。
+      有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <title>GG</title>
+    <style>
+        .txt_g {
+            font-size:1em;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+        <div class="content-block">
+            <p>Left panel content goes here</p>
+        </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+        <div class="content-block">
+            <p>Right panel content goes here</p>
+        </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+        <!-- Your main view, should have "view-main" class-->
+        <div class="view view-main">
+            <!-- Top Navbar-->
+            <div class="navbar">
+                <!-- Navbar inner for Index page-->
+                <div data-page="index" class="navbar-inner cached" style="display:none;">
+                    <div class="left sliding">
+                        <a href="#" class="back link">
+                            <i class="icon icon-back"></i>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="center sliding"></div>
+                </div>
+                <!-- Navbar inner for About page-->
+                <div data-page="about" class="navbar-inner cached">
+                    <div class="left sliding">
+                        <a href="#" class="back link"> 
+                            <i class="icon icon-back"></i>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="center sliding">注册(1/3)</div>
+                </div>
+                <!-- Navbar inner for Services page-->
+                <div data-page="services" class="navbar-inner cached">
+                    <div class="left sliding">
+                        <a href="#" class="back link"> 
+                            <i class="icon icon-back"></i>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="center sliding">注册(2/3)</div>
+                </div>
+                <!-- Navbar inner for Form page-->
+                <div data-page="form" class="navbar-inner cached">
+                    <div class="left sliding">
+                        <a href="#" class="back link"> 
+                            <i class="icon icon-back"></i>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="center sliding">注册(3/3)</div>
+                </div>
+                <!-- Navbar inner for Form page-->
+                <div data-page="pwd-done" class="navbar-inner cached">
+                    <div class="left sliding">
+                        <a href="#" class="back link">
+                            <i class="icon icon-back"></i>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="center sliding">注册完成</div>
+                </div>
+
+            </div>
+            <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+            <div class="pages navbar-through toolbar-through">
+                <!-- Index Page-->
+                <div data-page="index" class="page">
+                    <!-- Scrollable page content-->
+                    <div class="page-content">
+
+                        <div class="content-block">
+                            
+
+                                <div class="page-content login-screen-content">
+                                    <div class="login-screen-title">欢迎登录!</div>
+                                    <form>
+                                        <div class="list-block">
+                                            <ul>
+                                                <li class="item-content">
+                                                    <div class="item-inner">
+                                                        <div class="item-input">
+                                                            <input type="text" name="username" placeholder="手机号/用户名/邮箱">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="item-content">
+                                                    <div class="item-inner">
+                                                        <div class="item-input">
+                                                            <input type="password" name="password" placeholder="登陆密码">
+                                                        </div>
+                                                    </div>
+                                                    <span style="width:10em;"><a href="#services" class="item-link list-button">找回密码</a></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-block">
+                                            <a href="#"  class="button button-big button-fill a_login">
+                                                登录
+                                            </a>
+
+                                            <div class="list-block-label">
+
+                                                <p><a href="#about" class="open-login-screen">新用户注册</a></p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div style="position:absolute; bottom:0;"></div>
+                                </div>
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- About Page-->
+                <div data-page="about" class="page cached">
+                    <div class="page-content">
+                        <div class="content-block">
+                            <div class="page-content login-screen-content">
+                                <div class="login-screen-title">新用户注册</div>
+                                <form>
+                                    <div class="list-block">
+                                        <ul>
+                                            <li class="item-content">
+                                                <div class="item-inner">
+                                                    <div class="item-input">
+                                                        <input type="text" name="username" placeholder="填写您的手机号">
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-block">
+                                        <a href="#services" class="button button-big button-fill">
+                                            验证您的手机号
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+  
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Services Page-->
+                <div data-page="services" class="page cached">
+                    <div class="page-content">
+                        <div class="content-block">
+
+                            <div class="page-content login-screen-content">
+                                <div class="login-screen-title">验证手机号</div>
+                                <div class="login-screen-title txt_g">验证手机：13818189438</div>
+                                <form>
+                                    <div class="list-block txt_g">
+                                        <ul>
+                                            <li class="item-content">
+                                                <div class="item-inner">
+                                                    <div class="item-input">
+                                                        <input type="password" name="password" placeholder="短信验证码">
+                                                    </div>
+                                                </div>
+                                                <span style="width:12em;"><a href="#" class="item-link list-button">重发验证码</a></span>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-block">
+                                        <a href="#form" class="button button-big button-fill">
+                                            下一步,设置密码
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- form Page-->
+                <div data-page="form" class="page cached">
+                    <div class="page-content">
+                        <div class="content-block">
+
+                            <div class="page-content login-screen-content">
+                                <div class="login-screen-title">设置密码</div>
+                                <div class="login-screen-title txt_g">手机：13818189438</div>
+                                <form>
+                                    <div class="list-block txt_g">
+                                        <ul>
+                                            <li class="item-content">
+                                                <div class="item-inner">
+                                                    <div class="item-input">
+                                                        <input type="password" name="password" placeholder="输入密码">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="item-content">
+                                                <div class="item-inner">
+                                                    <div class="item-input">
+                                                        <input type="password" name="password" placeholder="再输入一次密码">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-block">
+                                        <a href="#pwd-done" class="button button-big button-fill">
+                                            提交密码
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- form Page end-->
+
+
+                <!-- form Page-->
+                <div data-page="pwd-done" class="page cached">
+                    <div class="page-content">
+                        <div class="content-block">
+
+                            <div class="page-content login-screen-content">
+                                <div class="login-screen-title">准备登录</div>
+                                <div class="login-screen-title txt_g">手机：13818189438</div>
+                                <form>
+                                    <div class="list-block txt_g">
+                                        <div class="login-screen-title txt_g">注册成功！</div>
+                                    </div>
+                                    <div class="list-block">
+                                        <a href="#" class="button button-big button-fill a_login">
+                                            登录
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- form Page end-->
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="scripts/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="scripts/my-app.js?001"></script>
+
+</body>
+</html>
