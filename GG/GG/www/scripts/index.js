@@ -2,6 +2,23 @@
 // http://go.microsoft.com/fwlink/?LinkID=397704
 // 若要在 cordova-simulate 或 Android 设备/仿真器上在页面加载时调试代码: 启动应用，设置断点，
 // 然后在 JavaScript 控制台中运行 "window.location.reload()"。
+
+// Initialize your app
+var myApp = new Framework7({
+    animateNavBackIcon: true
+});
+
+// Export selectors engine
+var $$ = Dom7;
+
+// Add main View
+var mainView = myApp.addView('.view-main', {
+    // Enable dynamic Navbar
+    dynamicNavbar: true,
+    // Enable Dom Cache so we can use all inline pages
+    domCache: true
+});
+
 (function () {
     "use strict";
 
@@ -9,8 +26,26 @@
 
     function onDeviceReady() {
         // 处理 Cordova 暂停并恢复事件
+        navigator.app.clearHistory();
         document.addEventListener( 'pause', onPause.bind( this ), false );
-        document.addEventListener( 'resume', onResume.bind( this ), false );
+        document.addEventListener('resume', onResume.bind(this), false);
+        document.addEventListener("backbutton", eventBackButton, false);
+        
+
+        // Option 1. Using one 'pageInit' event handler for all pages (recommended way):
+        $$(document).on('pageInit', function (e) {
+            // Get page data from event data
+            var page = e.detail.page;
+
+            if (page.name === 'login') {
+                // Following code will be executed for page with data-page attribute equal to "about"
+                myApp.alert('Here comes About page');
+            }
+        });
+
+        $$('.login-screen').on('open', function () {
+            
+        });
         
         // TODO: Cordova 已加载。在此处执行任何需要 Cordova 的初始化。
         var parentElement = document.getElementById('deviceready');

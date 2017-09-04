@@ -4,7 +4,7 @@
     <DebuggerFlavor>iOSEmulatoriPhone6</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
-    <DebuggerFlavor>AndroidEmulator</DebuggerFlavor>
+    <DebuggerFlavor>SimulateG5</DebuggerFlavor>
     <AndroidEmulatorID>AndroidDevice;设备</AndroidEmulatorID>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'">
