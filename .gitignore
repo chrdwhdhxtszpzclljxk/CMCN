@@ -46,8 +46,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 GG/GG/bin/Windows-x86/Debug/
-GG\GG\bin\Windows-x86\Debug
 GG/GG/bin
 GG/GG/bower_components
 GG/GG/simulation
-GG\GG\simulation
+GG/GG/simulation/app-host.js
+GG/GG/simulation/app-host.json
+GG/GG/simulation/sim-host.js
+GG/GG/simulation/sim-host.json

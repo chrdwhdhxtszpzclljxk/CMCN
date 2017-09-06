@@ -33,7 +33,7 @@ var mainView = myApp.addView('.view-main', {
 
 function login() {
     //mainView.router.loadPage("index.html");
-    var jurl = "http://www.gwgz.com/bbb.php";
+    var jurl = "http://www.gwgz.com/";
     $$.ajax({
         url: jurl,
         contentType: "OPTIONS",
