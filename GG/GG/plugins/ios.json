@@ -12,6 +12,12 @@
         },
         "de.appplant.cordova.plugin.local-notification": {
             "PACKAGE_NAME": "io.cordova.myapp413d10"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "io.cordova.myapp413d10"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "io.cordova.myapp413d10"
         }
     },
     "dependent_plugins": {
@@ -19,6 +25,9 @@
             "PACKAGE_NAME": "io.cordova.myapp413d10"
         },
         "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cordova.myapp413d10"
+        },
+        "cordova-plugin-compat": {
             "PACKAGE_NAME": "io.cordova.myapp413d10"
         }
     }

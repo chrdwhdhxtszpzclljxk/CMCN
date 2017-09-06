@@ -58,7 +58,14 @@
                                         <p class="event received">设备已就绪</p>
                                     </div>
                                 </div>
+                                <p>
+                                    <button onclick="window.plugins.toast.showShortTop('Hello there!', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})">Toast showShortTop</button>
+                                    <button onclick="window.plugins.toast.showLongBottom('Hello there!', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})">Toast showLongBottom</button>
+                                    <button onclick="window.plugins.toast.show('Hello there!', 'long', 'center', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})">Toast show long center</button>
 
+
+                                </p>
+                                <p><a href="login.html">login</a></p>
                                 <p>This is an example of tab bar application layout. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
                                 <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
                                 <p>And of course, your favorite panels are still here: <a href="#" class="open-panel">left</a> and  <a href="#" data-panel="right" class="open-panel">right</a></p>
@@ -273,13 +280,14 @@
         </div>
 
 
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="scripts/platformOverrides.js"></script>
-        <script type="text/javascript" src="scripts/index.js"></script>
-        <!-- Path to Framework7 Library JS-->
         <script type="text/javascript" src="scripts/framework7.min.js"></script>
-        <!-- Path to your app js-->
+        <script type="text/javascript" src="scripts/script01.js"></script>
         <script type="text/javascript" src="scripts/my-app.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
 
     </body>
 </html>

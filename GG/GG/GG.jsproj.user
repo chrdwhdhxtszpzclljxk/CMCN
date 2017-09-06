@@ -4,8 +4,8 @@
     <DebuggerFlavor>iOSEmulatoriPhone6</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
-    <DebuggerFlavor>SimulateGalaxyS5</DebuggerFlavor>
-    <AndroidEmulatorID>AndroidEmulator;Google 仿真程序 - 电话</AndroidEmulatorID>
+    <DebuggerFlavor>SimulateG5</DebuggerFlavor>
+    <AndroidEmulatorID>AndroidDevice;设备</AndroidEmulatorID>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'">
     <DebuggerFlavor>SimulateG5</DebuggerFlavor>
